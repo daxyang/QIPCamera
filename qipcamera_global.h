@@ -1,0 +1,12 @@
+#ifndef QIPCAMERA_GLOBAL_H
+#define QIPCAMERA_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(QIPCAMERA_LIBRARY)
+#  define QIPCAMERASHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define QIPCAMERASHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // QIPCAMERA_GLOBAL_H
