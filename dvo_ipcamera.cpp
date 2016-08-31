@@ -81,7 +81,7 @@ int dvo_IPCamera::get_data()
             }
             else
             {
-                slidingWindow->write_data_to_buffer((u32)stream_info->len,(char *)stream_buffer,frame_info);
+              slidingWindow->write_data_to_buffer((u32)stream_info->len,(char *)stream_buffer,frame_info);
             }
 
         }

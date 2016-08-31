@@ -120,6 +120,11 @@ int IPCamera::create_connect(char *ip, int port)
         return -1;
     }
 #endif
+    int optval = 1 * 1024 * 1024;
+    int size_len = sizeof(int);
+    int sokopt = setsockopt(iSocketID,SOL_SOCKET,SO_RCVBUF,&optval,size_len);
+    if(sokopt < 0)
+      printf("set socket opt error\n");
 
     if(::connect(iSocketID, (struct sockaddr *)&serv_addr, sizeof(serv_addr)) < 0)
     {
@@ -251,4 +256,3 @@ int IPCamera::connect_ipcam(char *ip, int port)
     iSockID = iSocketID;
     return iSocketID;
 }
-

@@ -1,6 +1,6 @@
 #ifndef IPCAMERA_H
 #define IPCAMERA_H
-#include "qslidingwindow.h"
+#include "QSlidingWindow.h"
 #include "pthread.h"
 
 #if WIN32
@@ -18,7 +18,7 @@
 #include "pthread.h"
 #include "errno.h"
 #include <fcntl.h>
-#include <QObject>
+//#include <QObject>
 
 #define TIMEOUT  5
 

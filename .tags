@@ -1,0 +1,207 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+dvo_IPCamera	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.cpp	/^dvo_IPCamera::dvo_IPCamera()$/;"	function	line:3	class:dvo_IPCamera	signature:()
+~dvo_IPCamera	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.cpp	/^dvo_IPCamera::~dvo_IPCamera()$/;"	function	line:7	class:dvo_IPCamera	signature:()
+bound	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.cpp	/^void dvo_IPCamera::bound(QSlidingWindow *sliding_window)$/;"	function	line:12	class:dvo_IPCamera	signature:(QSlidingWindow *sliding_window)
+get_data	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.cpp	/^int dvo_IPCamera::get_data()$/;"	function	line:16	class:dvo_IPCamera	signature:()
+send_stream_cmd	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.cpp	/^int dvo_IPCamera::send_stream_cmd(char *ip,int port,int stream_id)$/;"	function	line:111	class:dvo_IPCamera	signature:(char *ip,int port,int stream_id)
+dvo_rcv_enc_ctl_ack	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.cpp	/^int dvo_IPCamera::dvo_rcv_enc_ctl_ack(int sk, int stream_id)$/;"	function	line:145	class:dvo_IPCamera	signature:(int sk, int stream_id)
+dvo_send_enc_ctl	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.cpp	/^int dvo_IPCamera::dvo_send_enc_ctl(int sk, int stream_id)$/;"	function	line:181	class:dvo_IPCamera	signature:(int sk, int stream_id)
+ipcamera_connect	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.cpp	/^int dvo_IPCamera::ipcamera_connect(char *ip, int port, int stream)$/;"	function	line:194	class:dvo_IPCamera	signature:(char *ip, int port, int stream)
+DVO_IPCAMERA_H	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define DVO_IPCAMERA_H$/;"	macro	line:2
+NET_SYS	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define		NET_SYS	/;"	macro	line:12
+NET_ENC	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define		NET_ENC	/;"	macro	line:13
+NET_IMG	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define		NET_IMG	/;"	macro	line:14
+NET_PTZ	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define		NET_PTZ	/;"	macro	line:15
+NET_EVT	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define		NET_EVT	/;"	macro	line:16
+NET_ADO	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define		NET_ADO	/;"	macro	line:17
+NET_MSC	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define		NET_MSC	/;"	macro	line:18
+DATA_TYPE_CMD	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define         DATA_TYPE_CMD /;"	macro	line:21
+DATA_TYPE_VIDEO	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define         DATA_TYPE_VIDEO /;"	macro	line:22
+DATA_TYPE_AUDIO	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define         DATA_TYPE_AUDIO /;"	macro	line:23
+SYS_LOGIN_IN	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        SYS_LOGIN_IN /;"	macro	line:25
+SYS_LOGIN_OUT	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        SYS_LOGIN_OUT /;"	macro	line:26
+SYS_NET_SET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        SYS_NET_SET /;"	macro	line:27
+SYS_NET_CHECK	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        SYS_NET_CHECK /;"	macro	line:28
+SYS_TIME_SET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        SYS_TIME_SET /;"	macro	line:29
+SYS_TIME_CHECK	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        SYS_TIME_CHECK /;"	macro	line:30
+SYS_REBOOT	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        SYS_REBOOT /;"	macro	line:31
+SYS_SHUTDOWN	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        SYS_SHUTDOWN /;"	macro	line:32
+SYS_RESTORE_DEFAULT_SET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        SYS_RESTORE_DEFAULT_SET /;"	macro	line:33
+SYS_NUCLEAR_UPDATE	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        SYS_NUCLEAR_UPDATE /;"	macro	line:34
+SYS_COM_SET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        SYS_COM_SET /;"	macro	line:35
+SYS_COM_CHECK	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        SYS_COM_CHECK /;"	macro	line:36
+SYS_RES_CHECK	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        SYS_RES_CHECK /;"	macro	line:37
+SYS_LOG_GET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        SYS_LOG_GET /;"	macro	line:38
+SYS_DEVICE_CHECK	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        SYS_DEVICE_CHECK /;"	macro	line:39
+SYS_DEVICE_SET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        SYS_DEVICE_SET /;"	macro	line:40
+SYS_DISKINFO_CHECK	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        SYS_DISKINFO_CHECK /;"	macro	line:41
+SYS_KEEP_LIVE_SET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        SYS_KEEP_LIVE_SET /;"	macro	line:42
+SYS_KEEP_LIVE	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        SYS_KEEP_LIVE /;"	macro	line:43
+SYS_KEEP_LIVE_BACK	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        SYS_KEEP_LIVE_BACK /;"	macro	line:44
+SYS_SN_MAC_SET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        SYS_SN_MAC_SET /;"	macro	line:45
+SYS_SN_MAC_GET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        SYS_SN_MAC_GET /;"	macro	line:46
+SYS_VOUT_SET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        SYS_VOUT_SET /;"	macro	line:47
+SYS_VOUT_GET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        SYS_VOUT_GET /;"	macro	line:48
+SYS_NTP_SET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        SYS_NTP_SET /;"	macro	line:49
+SYS_NTP_GET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        SYS_NTP_GET /;"	macro	line:50
+ENC_VIDEO_PARA_SET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        ENC_VIDEO_PARA_SET /;"	macro	line:52
+ENC_VIDEO_PARA_GET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        ENC_VIDEO_PARA_GET /;"	macro	line:53
+ENC_STREAM_START	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        ENC_STREAM_START /;"	macro	line:54
+ENC_OSD_SET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        ENC_OSD_SET /;"	macro	line:55
+ENC_OSD_GET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        ENC_OSD_GET /;"	macro	line:56
+ENC_PM_SET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        ENC_PM_SET /;"	macro	line:57
+ENC_CUSTOM_OSD_ZONE_SET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        ENC_CUSTOM_OSD_ZONE_SET /;"	macro	line:58
+ENC_CUSTOM_OSD_ZONE_GET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        ENC_CUSTOM_OSD_ZONE_GET /;"	macro	line:59
+ENC_CUSTOM_OSD_LINE_PARA_SET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        ENC_CUSTOM_OSD_LINE_PARA_SET /;"	macro	line:60
+ENC_CUSTOM_OSD_LINE_PARA_GET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        ENC_CUSTOM_OSD_LINE_PARA_GET /;"	macro	line:61
+ENC_CUSTOM_OSD_LINE_DATA_SET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        ENC_CUSTOM_OSD_LINE_DATA_SET /;"	macro	line:62
+ENC_CUSTOM_OSD_LINE_DATA_GET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        ENC_CUSTOM_OSD_LINE_DATA_GET /;"	macro	line:63
+IMG_COLOR_SET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        IMG_COLOR_SET /;"	macro	line:66
+IMG_COLOR_GET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        IMG_COLOR_GET /;"	macro	line:67
+IMG_EXP_SET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        IMG_EXP_SET /;"	macro	line:68
+IMG_EXP_GET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        IMG_EXP_GET /;"	macro	line:69
+IMG_BW_SET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        IMG_BW_SET /;"	macro	line:70
+IMG_BW_GET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        IMG_BW_GET /;"	macro	line:71
+IMG_DAY_NIGHT_SET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        IMG_DAY_NIGHT_SET /;"	macro	line:72
+IMG_DAY_NIGHT_GET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        IMG_DAY_NIGHT_GET /;"	macro	line:73
+IMG_VIDEO_MODE_SET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        IMG_VIDEO_MODE_SET /;"	macro	line:74
+IMG_VIDEO_MODE_GET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        IMG_VIDEO_MODE_GET /;"	macro	line:75
+PTZ_SET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        PTZ_SET /;"	macro	line:78
+PTZ_TRANSPARENT_SEND	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define        PTZ_TRANSPARENT_SEND /;"	macro	line:79
+EVT_IO_ALARM_SET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define         EVT_IO_ALARM_SET /;"	macro	line:82
+EVT_IO_ALARM_CHECK	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define         EVT_IO_ALARM_CHECK /;"	macro	line:83
+EVT_IO_MD_SET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define         EVT_IO_MD_SET /;"	macro	line:84
+EVT_IO_MD_CHECK	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define         EVT_IO_MD_CHECK /;"	macro	line:85
+EVT_IO_MD_PARA_SET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define         EVT_IO_MD_PARA_SET /;"	macro	line:86
+EVT_IO_MD_PARA_GET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define         EVT_IO_MD_PARA_GET /;"	macro	line:87
+EVT_485_ALARM_SET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define         EVT_485_ALARM_SET /;"	macro	line:88
+EVT_485_ALARM_GET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define         EVT_485_ALARM_GET /;"	macro	line:89
+EVT_485_ALARM_PARA_SET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define         EVT_485_ALARM_PARA_SET /;"	macro	line:90
+EVT_485_ALARM_PARA_GET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define         EVT_485_ALARM_PARA_GET /;"	macro	line:91
+ADO_INPUT_DATA_CTL_SET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define         ADO_INPUT_DATA_CTL_SET /;"	macro	line:94
+ADO_INPUT_DATA_CTL_GET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define         ADO_INPUT_DATA_CTL_GET /;"	macro	line:95
+ADO_OUTPUT_DATA_CTL_SET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define         ADO_OUTPUT_DATA_CTL_SET /;"	macro	line:96
+ADO_OUTPUT_DATA_CTL_GET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define         ADO_OUTPUT_DATA_CTL_GET /;"	macro	line:97
+ADO_INPUT_ENC_PARA_SET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define         ADO_INPUT_ENC_PARA_SET /;"	macro	line:98
+ADO_INPUT_ENC_PARA_GET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define         ADO_INPUT_ENC_PARA_GET /;"	macro	line:99
+ADO_OUTPUT_ENC_PARA_SET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define         ADO_OUTPUT_ENC_PARA_SET /;"	macro	line:100
+ADO_OUTPUT_ENC_PARA_GET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define         ADO_OUTPUT_ENC_PARA_GET /;"	macro	line:101
+ADO_DATA_RECORD_PACKET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define         ADO_DATA_RECORD_PACKET /;"	macro	line:102
+ADO_DATA_SPEAK_PACKET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define         ADO_DATA_SPEAK_PACKET /;"	macro	line:103
+NET_MSC_DES10	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define		NET_MSC_DES10	/;"	macro	line:106
+NET_MSC_WIFI_SET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define     NET_MSC_WIFI_SET /;"	macro	line:107
+NET_MSC_WIFI_GET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define     NET_MSC_WIFI_GET /;"	macro	line:108
+NET_MSC_AUDIO_OUT_START	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define     NET_MSC_AUDIO_OUT_START /;"	macro	line:109
+NET_MSC_485_DEV_SET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define     NET_MSC_485_DEV_SET /;"	macro	line:110
+NET_MSC_485_DEV_GET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define     NET_MSC_485_DEV_GET /;"	macro	line:111
+NET_MSC_485_OSD_PARA_SET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define     NET_MSC_485_OSD_PARA_SET /;"	macro	line:112
+NET_MSC_485_OSD_PARA_GET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define     NET_MSC_485_OSD_PARA_GET /;"	macro	line:113
+NET_MSC_485_INPUT_DATA_GET	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define     NET_MSC_485_INPUT_DATA_GET /;"	macro	line:114
+chn	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^    u32			chn;\/\/视频输入通道号，取值0~MAX-1.$/;"	member	line:119	struct:__anon1
+stream	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^    u32			stream;\/\/码流编号：0:主码流，1：子码流，2：第三码流。$/;"	member	line:120	struct:__anon1
+enable	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^    u32			enable;\/\/0:停止发送，1：开始发送。$/;"	member	line:121	struct:__anon1
+nettype	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^    u32			nettype;\/\/0:tcp,1:udp.$/;"	member	line:122	struct:__anon1
+port	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^    u32			port;\/\/udp port.$/;"	member	line:123	struct:__anon1
+rev	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^    u32			rev[3];$/;"	member	line:124	struct:__anon1
+app_net_tcp_enc_ctl_t	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^}app_net_tcp_enc_ctl_t;$/;"	typedef	line:125	typeref:struct:__anon1
+chn	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^    u32			chn;\/\/视频输入通道号，取值0~MAX-1.$/;"	member	line:128	struct:__anon2
+stream	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^    u32			stream;\/\/码流编号：0:主码流，1：子码流，2：第三码流。$/;"	member	line:129	struct:__anon2
+state	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^    u32			state;\/\/0:成功，1：失败。$/;"	member	line:130	struct:__anon2
+rev	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^    u32			rev;$/;"	member	line:131	struct:__anon2
+app_net_tcp_enc_ctl_ack_t	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^}app_net_tcp_enc_ctl_ack_t;$/;"	typedef	line:132	typeref:struct:__anon2
+NET_PORT	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define       NET_PORT /;"	macro	line:134
+tagMsgHead_t	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^typedef struct tagMsgHead_t$/;"	struct	line:136
+Magic1	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^    char Magic1[4];$/;"	member	line:138	struct:tagMsgHead_t
+Pktlen	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^    u32  Pktlen;$/;"	member	line:139	struct:tagMsgHead_t
+Version	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^    u16  Version;$/;"	member	line:140	struct:tagMsgHead_t
+Hwtype	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^    u16  Hwtype;$/;"	member	line:141	struct:tagMsgHead_t
+Sn	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^    u32  Sn;$/;"	member	line:142	struct:tagMsgHead_t
+CmdType	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^    u16  CmdType;$/;"	member	line:143	struct:tagMsgHead_t
+CmdSubType	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^    u16  CmdSubType;$/;"	member	line:144	struct:tagMsgHead_t
+DataType	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^    u16  DataType;$/;"	member	line:145	struct:tagMsgHead_t
+Rev1	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^    u16  Rev1;$/;"	member	line:146	struct:tagMsgHead_t
+Rev2	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^    u32  Rev2;$/;"	member	line:147	struct:tagMsgHead_t
+Rev3	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^    u32  Rev3;$/;"	member	line:148	struct:tagMsgHead_t
+tagMsgHead_t	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^}tagMsgHead_t;$/;"	typedef	line:149	typeref:struct:tagMsgHead_t
+BUILD_MSG_HEADER	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define BUILD_MSG_HEADER(/;"	macro	line:151
+MSG_HEADER_LEN	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^#define MSG_HEADER_LEN /;"	macro	line:164
+chn	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^    u32		chn;	\/\/视频输入通道号，取值0~MAX-1.$/;"	member	line:167	struct:__anon3
+stream	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^    u32		stream;\/\/码流编号：0:主码流，1：子码流，2：第三码流。$/;"	member	line:168	struct:__anon3
+frame_type	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^    u32		frame_type;\/\/帧类型，范围参考APP_NET_TCP_STREAM_TYPE$/;"	member	line:169	struct:__anon3
+frame_num	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^    u32		frame_num;\/\/帧序号，范围0~0xFFFFFFFF.$/;"	member	line:170	struct:__anon3
+sec	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^    u32		sec;	\/\/时间戳,单位：秒，为1970年以来的秒数。$/;"	member	line:171	struct:__anon3
+usec	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^    u32		usec;\/\/时间戳,单位：微秒。$/;"	member	line:172	struct:__anon3
+rev	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^    u32		rev[2];$/;"	member	line:173	struct:__anon3
+app_net_tcp_enc_stream_head_t	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^}app_net_tcp_enc_stream_head_t;$/;"	typedef	line:174	typeref:struct:__anon3
+stream_info_t	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^struct stream_info_t$/;"	struct	line:176
+stamp_sec	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^    int stamp_sec;$/;"	member	line:178	struct:stream_info_t
+stamp_usec	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^    int stamp_usec;$/;"	member	line:179	struct:stream_info_t
+len	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^    int len;$/;"	member	line:180	struct:stream_info_t
+rcv_sec	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^    int rcv_sec;$/;"	member	line:182	struct:stream_info_t
+rcv_usec	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^    int rcv_usec;$/;"	member	line:183	struct:stream_info_t
+dvo_IPCamera	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^class dvo_IPCamera : public IPCamera$/;"	class	line:193
+decode_i_Frame	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^    int decode_i_Frame;$/;"	member	line:206	class:dvo_IPCamera
+iStreamID	/Users/qianzhengyang/QIPCamera/dvo_ipcamera.h	/^    int iStreamID;$/;"	member	line:207	class:dvo_IPCamera
+TIME_OUT	/Users/qianzhengyang/QIPCamera/ipcamera.cpp	/^#define TIME_OUT /;"	macro	line:2	file:
+IPCamera	/Users/qianzhengyang/QIPCamera/ipcamera.cpp	/^IPCamera::IPCamera()$/;"	function	line:3	class:IPCamera	signature:()
+~IPCamera	/Users/qianzhengyang/QIPCamera/ipcamera.cpp	/^IPCamera::~IPCamera()$/;"	function	line:8	class:IPCamera	signature:()
+start_getdata_fromIPC	/Users/qianzhengyang/QIPCamera/ipcamera.cpp	/^int IPCamera::start_getdata_fromIPC()$/;"	function	line:21	class:IPCamera	signature:()
+exit	/Users/qianzhengyang/QIPCamera/ipcamera.cpp	/^void IPCamera::exit()$/;"	function	line:38	class:IPCamera	signature:()
+create_connect	/Users/qianzhengyang/QIPCamera/ipcamera.cpp	/^int IPCamera::create_connect(char *ip, int port)$/;"	function	line:57	class:IPCamera	signature:(char *ip, int port)
+get_data_thread	/Users/qianzhengyang/QIPCamera/ipcamera.cpp	/^void *IPCamera::get_data_thread(void *ptr)$/;"	function	line:189	class:IPCamera	signature:(void *ptr)
+READ	/Users/qianzhengyang/QIPCamera/ipcamera.cpp	/^int IPCamera::READ(int sk, char *buf, int len)$/;"	function	line:203	class:IPCamera	signature:(int sk, char *buf, int len)
+WRITE	/Users/qianzhengyang/QIPCamera/ipcamera.cpp	/^int IPCamera::WRITE(int sk, char *buf, int len)$/;"	function	line:223	class:IPCamera	signature:(int sk, char *buf, int len)
+connect_ipcam	/Users/qianzhengyang/QIPCamera/ipcamera.cpp	/^int IPCamera::connect_ipcam(char *ip, int port)$/;"	function	line:248	class:IPCamera	signature:(char *ip, int port)
+IPCAMERA_H	/Users/qianzhengyang/QIPCamera/ipcamera.h	/^#define IPCAMERA_H$/;"	macro	line:2
+TIMEOUT	/Users/qianzhengyang/QIPCamera/ipcamera.h	/^#define TIMEOUT /;"	macro	line:23
+IPCamera	/Users/qianzhengyang/QIPCamera/ipcamera.h	/^class IPCamera$/;"	class	line:25
+iSockID	/Users/qianzhengyang/QIPCamera/ipcamera.h	/^    int iSockID;$/;"	member	line:40	class:IPCamera
+slidingWindow	/Users/qianzhengyang/QIPCamera/ipcamera.h	/^    QSlidingWindow *slidingWindow;$/;"	member	line:41	class:IPCamera
+frame_info	/Users/qianzhengyang/QIPCamera/ipcamera.h	/^    struct _frame_info_t *frame_info;$/;"	member	line:42	class:IPCamera	typeref:struct:IPCamera::_frame_info_t
+write_data_from_ipcam_thread_id	/Users/qianzhengyang/QIPCamera/ipcamera.h	/^    pthread_t write_data_from_ipcam_thread_id;$/;"	member	line:47	class:IPCamera
+data_buffer	/Users/qianzhengyang/QIPCamera/ipcamera.h	/^    char *data_buffer;$/;"	member	line:50	class:IPCamera
+QIPCAMERA_GLOBAL_H	/Users/qianzhengyang/QIPCamera/qipcamera_global.h	/^#define QIPCAMERA_GLOBAL_H$/;"	macro	line:2
+QIPCAMERASHARED_EXPORT	/Users/qianzhengyang/QIPCamera/qipcamera_global.h	/^#  define QIPCAMERASHARED_EXPORT /;"	macro	line:7
+QIPCAMERASHARED_EXPORT	/Users/qianzhengyang/QIPCamera/qipcamera_global.h	/^#  define QIPCAMERASHARED_EXPORT /;"	macro	line:9
+ANT_IPCAMERA_H	/Users/qianzhengyang/QIPCamera/ant_ipcamera.h	/^#define ANT_IPCAMERA_H$/;"	macro	line:2
+ant_ipcamera	/Users/qianzhengyang/QIPCamera/ant_ipcamera.h	/^class ant_ipcamera : public IPCamera$/;"	class	line:6
+pthis	/Users/qianzhengyang/QIPCamera/ant_ipcamera.h	/^  static ant_ipcamera *pthis;$/;"	member	line:13	class:ant_ipcamera
+ant_client	/Users/qianzhengyang/QIPCamera/ant_ipcamera.h	/^  QNetClient *ant_client;$/;"	member	line:20	class:ant_ipcamera
+slidingWnd	/Users/qianzhengyang/QIPCamera/ant_ipcamera.h	/^  QSlidingWindow *slidingWnd;$/;"	member	line:25	class:ant_ipcamera
+stream_id	/Users/qianzhengyang/QIPCamera/ant_ipcamera.h	/^  int stream_id;$/;"	member	line:26	class:ant_ipcamera
+pthis	/Users/qianzhengyang/QIPCamera/ant_ipcamera.cpp	/^ant_ipcamera *ant_ipcamera::pthis = NULL;$/;"	member	line:2	class:ant_ipcamera	file:
+ant_ipcamera	/Users/qianzhengyang/QIPCamera/ant_ipcamera.cpp	/^ant_ipcamera::ant_ipcamera()$/;"	function	line:3	class:ant_ipcamera	signature:()
+~ant_ipcamera	/Users/qianzhengyang/QIPCamera/ant_ipcamera.cpp	/^ant_ipcamera::~ant_ipcamera()$/;"	function	line:9	class:ant_ipcamera	signature:()
+login	/Users/qianzhengyang/QIPCamera/ant_ipcamera.cpp	/^void ant_ipcamera::login()$/;"	function	line:11	class:ant_ipcamera	signature:()
+ipcamera_connect	/Users/qianzhengyang/QIPCamera/ant_ipcamera.cpp	/^int ant_ipcamera::ipcamera_connect(char *ip,int port,int stream)$/;"	function	line:21	class:ant_ipcamera	signature:(char *ip,int port,int stream)
+start	/Users/qianzhengyang/QIPCamera/ant_ipcamera.cpp	/^void ant_ipcamera::start()$/;"	function	line:33	class:ant_ipcamera	signature:()
+bound	/Users/qianzhengyang/QIPCamera/ant_ipcamera.cpp	/^void ant_ipcamera::bound(QSlidingWindow *sliding_window)$/;"	function	line:42	class:ant_ipcamera	signature:(QSlidingWindow *sliding_window)
+connect_ipcam_ack	/Users/qianzhengyang/QIPCamera/ant_ipcamera.cpp	/^void ant_ipcamera::connect_ipcam_ack(char *data,u32 len)$/;"	function	line:47	class:ant_ipcamera	signature:(char *data,u32 len)
+get_stream_ack	/Users/qianzhengyang/QIPCamera/ant_ipcamera.cpp	/^void ant_ipcamera::get_stream_ack(char *data,u32 len)$/;"	function	line:51	class:ant_ipcamera	signature:(char *data,u32 len)
+get_data	/Users/qianzhengyang/QIPCamera/ant_ipcamera.cpp	/^int ant_ipcamera::get_data()$/;"	function	line:56	class:ant_ipcamera	signature:()
+login_ack	/Users/qianzhengyang/QIPCamera/ant_ipcamera.cpp	/^void ant_ipcamera::login_ack(char *data,u32 len)$/;"	function	line:60	class:ant_ipcamera	signature:(char *data,u32 len)
+close_sk	/Users/qianzhengyang/QIPCamera/ant_ipcamera.cpp	/^void ant_ipcamera::close_sk(int sig)$/;"	function	line:62	class:ant_ipcamera	signature:(int sig)
+os	/Users/qianzhengyang/QIPCamera/Makefile	/^os = macx$/;"	macro	line:1
+TARGET	/Users/qianzhengyang/QIPCamera/Makefile	/^TARGET=libQIPCamera.dylib$/;"	macro	line:3
+TARGET	/Users/qianzhengyang/QIPCamera/Makefile	/^TARGET=libQIPCamera.so$/;"	macro	line:5
+CC	/Users/qianzhengyang/QIPCamera/Makefile	/^CC=g++$/;"	macro	line:8
+INCLUDE	/Users/qianzhengyang/QIPCamera/Makefile	/^INCLUDE = -I..\/QSlidingWindow -I..\/QSlidingWindowConsume -I..\/QNetProtocol$/;"	macro	line:10
+LIB	/Users/qianzhengyang/QIPCamera/Makefile	/^LIB = -L\/usr\/local\/lib -lQSlidingWindow -l QSlidingWindowConsume -lQNetProtocol$/;"	macro	line:11
+QIPCamera	/Users/qianzhengyang/QIPCamera/qipcamera.cpp	/^QIPCamera::QIPCamera()$/;"	function	line:4	class:QIPCamera	signature:()
+QIPCamera	/Users/qianzhengyang/QIPCamera/qipcamera.cpp	/^QIPCamera::QIPCamera(int factory_id)$/;"	function	line:9	class:QIPCamera	signature:(int factory_id)
+bound	/Users/qianzhengyang/QIPCamera/qipcamera.cpp	/^void QIPCamera::bound(QSlidingWindow *slidingwnd)$/;"	function	line:14	class:QIPCamera	signature:(QSlidingWindow *slidingwnd)
+connect_ipc	/Users/qianzhengyang/QIPCamera/qipcamera.cpp	/^void QIPCamera::connect_ipc(char *ip, int port, int stream)$/;"	function	line:20	class:QIPCamera	signature:(char *ip, int port, int stream)
+start	/Users/qianzhengyang/QIPCamera/qipcamera.cpp	/^void QIPCamera::start()$/;"	function	line:29	class:QIPCamera	signature:()
+QIPCAMERA_H	/Users/qianzhengyang/QIPCamera/qipcamera.h	/^#define QIPCAMERA_H$/;"	macro	line:2
+DVO_IPCAM	/Users/qianzhengyang/QIPCamera/qipcamera.h	/^#define DVO_IPCAM /;"	macro	line:9
+ANT_IPCAM	/Users/qianzhengyang/QIPCamera/qipcamera.h	/^#define ANT_IPCAM /;"	macro	line:10
+QIPCamera	/Users/qianzhengyang/QIPCamera/qipcamera.h	/^class QIPCamera$/;"	class	line:11
+dvoipcamera	/Users/qianzhengyang/QIPCamera/qipcamera.h	/^    dvo_IPCamera *dvoipcamera;$/;"	member	line:23	class:QIPCamera
+ant_ipc	/Users/qianzhengyang/QIPCamera/qipcamera.h	/^    ant_ipcamera *ant_ipc;$/;"	member	line:24	class:QIPCamera
+factory	/Users/qianzhengyang/QIPCamera/qipcamera.h	/^    int factory;$/;"	member	line:25	class:QIPCamera
+main	/Users/qianzhengyang/QIPCamera/test_ipca.c	/^int main()$/;"	function	line:4
