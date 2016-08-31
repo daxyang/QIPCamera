@@ -2,7 +2,7 @@
 #define ANT_IPCAMERA_H
 #include "QNetClient.h"
 #include "ipcamera.h"
-#include "GetDVOStream.h"
+//#include "QGetDVOStream.h"
 class ant_ipcamera : public IPCamera
 {
 public:
